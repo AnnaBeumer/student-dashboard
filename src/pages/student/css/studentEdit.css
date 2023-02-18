@@ -1,0 +1,132 @@
+.studentShow {
+    flex: 1;
+}
+
+.studentUpdate {
+    flex: 2;
+}
+
+.studentShowTop {
+    display: flex;
+    align-items: center;
+}
+
+.studentShowImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: -20% 0;
+}
+
+.studentShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.studentShowUsername {
+    font-weight: 600;
+}
+
+.studentShowBottom {
+    margin-top: 20px;
+}
+
+.studentShowTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+    opacity: 50%;
+}
+
+.studentShowInfo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: var(--text-color);
+}
+
+.studentShowIcon {
+    font-size: 16px !important;
+}
+
+.studentShowInfoTitle {
+    margin-left: 10px;
+}
+
+.studentUpdateTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.studentUpdateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.studentUpdateItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.studentUpdateItem > label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.studentsStudentImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: -20% 0;
+    margin-right: 10px;
+}
+
+.studentUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.studentUpdateUpload {
+    display: flex;
+    align-items: center;
+}
+
+.studentUpdateImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: -20% 0;
+    margin-right: 20px;
+}
+
+.studentUpdateIcon {
+    cursor: pointer;
+}
+
+.studentUpdateButton {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: var(--primary);
+    color: var(--diap-text-color);
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.studentDeleteButton{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: var(--secondary);
+    color: var(--diap-text-color);
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: 600;
+}

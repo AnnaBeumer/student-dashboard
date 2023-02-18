@@ -1,0 +1,44 @@
+.statistics-grid-container {
+    display: grid;
+    grid-template-columns: 200px 100px 400px;
+}
+
+.statistics-grid-containerTwo {
+    display: grid;
+    grid-template-columns: 200px 500px;
+}
+
+.statistics-grid-item {
+    text-align: left;
+    align-self: start;
+    cursor:default;
+}
+
+.statistics-grid{
+    padding-bottom: 20px;
+}
+.statistics-right-column{
+    max-width: 400px;
+
+}
+.statistics-boxTopLine{
+    border-top: 1px solid var(--secondary);
+}
+.statistics-mid-column {
+    font-weight: 800;
+    width: 100px;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.statistics-clickable {
+    cursor: pointer;
+}
+
+.statistics-icon{
+    padding-right: 5px;
+}

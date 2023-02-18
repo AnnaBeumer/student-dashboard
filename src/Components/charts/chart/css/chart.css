@@ -1,0 +1,54 @@
+.chartTitle {
+    padding-left: 20px;
+}
+
+.chartMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chartActiveButton {
+    opacity: 1;
+    color: var(--diap-text-color);
+    cursor: pointer;
+}
+
+.chartInactiveButton {
+    opacity: 0.4;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.chartButtonLeft {
+    padding: 5px;
+    background-color: var(--primary);
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border: none;
+}
+
+.chartButtonMid {
+    padding: 5px;
+    background-color: var(--primary);
+    border: none;
+}
+
+.chartButtonRight {
+    padding: 5px;
+    background-color: var(--primary);
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border: none;
+}
+
+.lock {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 999;
+    top: var(--top-height);
+}
+
+tspan {
+    text-transform: capitalize;
+}

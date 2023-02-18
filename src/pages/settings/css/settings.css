@@ -1,0 +1,28 @@
+.settingsColorBlock {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    border: 1px solid var(--primary);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.settingsColorChooser{
+    display: flex;
+    flex-direction: column;
+}
+.settingsFormControlBlock{
+    display: flex;
+    width: 100px;
+}
+.settingsFormControl{
+    display: flex;
+    padding-bottom: 10px;
+}
+.settings-easterEgg{
+    width: 100px;
+}
+.settings-hint{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,136 @@
+* {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+}
+
+.widgetContainer {
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    padding: 20px;
+    background-color: var(--bg-color);
+    margin: 0 10px 20px 10px;
+}
+
+.widgetLeft {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.widgetRight {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.widgetTitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+    text-underline-offset: 10px;
+}
+
+.pageTitle{
+    margin-left: 10px;
+}
+
+.widgetSubTitle {
+    display: flex;
+    align-items: center;
+    background: var(--secondary);
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    padding-left: 10px;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.rootButton {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: var(--primary);
+    color: var(--diap-text-color);
+    cursor: pointer;
+    font-weight: 600;
+}
+.rootDeleteButton {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: var(--secondary);
+    color: var(--diap-text-color);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.spacer{
+    min-width: 20px;
+}
+.rootButton.disabled {
+    opacity: 0.5;
+    cursor: no-drop;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+input:focus-visible {
+    outline-color: var(--secondary);
+}
+
+input:focus-within {
+    color: var(--primary);
+}
+
+input:focus {
+    color: var(--text-color);
+}
+
+.studentsStudent {
+    display: flex;
+    align-items: center;
+}
+
+.InputForm {
+    background: var(--diap-text-color);
+    color: var(--text-color);
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid var(--primary);
+}
+
+html{
+    --bg-image: url('data/images/Default.jpg');
+    --shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.56);
+    --top-height: 50px;
+    --bg-color: whitesmoke;
+    --text-color: darkslategray;
+    --diap-text-color: whitesmoke;
+    --primary: teal;
+    --avarage-fun: darkblue;
+    --avarage-diff: red;
+    --secondary: sandybrown;
+    --editCell: lightgray;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

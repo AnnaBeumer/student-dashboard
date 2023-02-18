@@ -1,0 +1,38 @@
+.topBar {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: var(--top-height);
+    background-color: var(--secondary);
+    border-bottom: solid var(--primary);
+}
+
+.topBarWrapper {
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--primary);
+    cursor: pointer;
+}
+
+.topRight {
+    display: flex;
+    align-items: center;
+}
+
+.topAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: -20% 0;
+}
